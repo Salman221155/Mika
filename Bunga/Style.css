@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+
+body{
+  color: #111;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: 'Baloo Thambi', cursive;
+  font-size: 4rem;
+  margin-bottom: -50px;
+  padding-bottom: -50px;
+}
+.container > span{
+  animation: glow 2s ease-in-out infinite;
+}
+@keyframes glow{
+  0%, 100%{
+    color: #fff;
+    text-shadow: 0 0 12px pink, 0 0 50px pink, 0 0 100px pink;
+  }
+  10%, 90%{
+    color: #111;
+    text-shadow: none;
+  }
+}
+.container > span:nth-child(2){
+  animation-delay: 0.25s;
+}
+.container > span:nth-child(3){
+  animation-delay: 0.5s;
+}
+.container > span:nth-child(4){
+  animation-delay: 0.75s;
+}
+.container > span:nth-child(5){
+  animation-delay: 1s;
+}
+.container > span:nth-child(6){
+  animation-delay: 1.25s;
+}
+.container > span:nth-child(7){
+  animation-delay: 1.5s;
+}
+.container > span:nth-child(8){
+  animation-delay: 1.75s;
+}
+.text-container {
+  background-color: #000;
+  text-align: center;
+  margin:-50px;
+  padding:-50px;
+  position: relative;
+  top: 50%;
+  height: 20vh;
+}
+.container-1{
+ font-family: 'Baloo Thambi', cursive;
+  font-size: 2rem;
+  color:#ffc0cb;
+}
